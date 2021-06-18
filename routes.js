@@ -8,6 +8,9 @@ module.exports = app => {
     // ajout d'un déchet
     router.post('/addDechet', dechets.addDechet)
 
+    // put le déchet à cacher
+    router.put('/hideDechet/:id', dechets.hideDechet)
+
     app.use('/api/dechets', router)
 };
 
