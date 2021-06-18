@@ -37,7 +37,6 @@ exports.addDechet = async function(req, res){
         typedechets: typedechets,
         see: true
     }
-
     Dechets.create(dechet).then(() => {
         res.status(200).send({message: "Déchet ajoutée 🥳"})
     }).catch(err =>{
