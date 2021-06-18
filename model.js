@@ -6,7 +6,7 @@ module.exports = (sequelize, Sequelize) => {
             autoIncrement: true,
             primaryKey: true
         },
-        urlFile:{
+        urlfile:{
             type: Sequelize.STRING
         },
         latitude:{
@@ -15,10 +15,10 @@ module.exports = (sequelize, Sequelize) => {
         longitude:{
             type: Sequelize.STRING
         },
-        typeDechets:{
+        typedechets:{
             type: Sequelize.STRING
         },
-        See:{
+        see:{
             type: Sequelize.BOOLEAN
         }
     })
