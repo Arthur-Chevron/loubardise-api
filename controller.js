@@ -5,7 +5,7 @@ const Dechets = db.dechets
 
 exports.getAllDechets = function(req, res){
     Dechets.findAll({
-        attributes: ['urlfile', 'latitude', 'longitude', 'typedechets'],
+        attributes: ['id', 'urlfile', 'latitude', 'longitude', 'typedechets'],
         where: {
             [Op.not]: {see : false}
         }
@@ -15,7 +15,3 @@ exports.getAllDechets = function(req, res){
         res.status(500).send(err.message)
     })
 }
-/*
-exports.getDechetsByLocation = function(req, res){
-
-}*/
