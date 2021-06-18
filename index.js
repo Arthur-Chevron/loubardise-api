@@ -27,7 +27,7 @@ Dechets.create({
     urlfile : 'https://i.redd.it/npz0ul214cg61.jpg',
     latitude : '48.8062102',
     longitude : '2.360018',
-    typedechets : 'pepo',
+    typedechets : 'pepi',
     See : true
 })
 
