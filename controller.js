@@ -43,3 +43,4 @@ exports.addDechet = async function(req, res){
         res.status(500).send({message: err.message})
     })
 }
+// test
