@@ -1,8 +1,9 @@
 module.exports = {
-    HOST: "localhost",
+    PORT:"5432",
+    HOST: "database-1-loubardise.csouvphig4ch.eu-west-3.rds.amazonaws.com",
     USER: "postgres",
-    PASSWORD: "Arthur",
-    DB: "MasterCamp",
+    PASSWORD: "LeMotDePasseDeLaLoubardise",
+    DB: "myDatabase",
     dialect: "postgres",
     pool: {
         max: 5,
